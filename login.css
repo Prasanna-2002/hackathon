@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: 280%;
+    background-position: -400px 0px;
+    background-color:lightskyblue;
+}
+.main{
+    width:600px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.register{
+    background-color: rgba(44, 22, 24, 0.5);
+    width:100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(65, 17, 119, 0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+input#name{
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: white;
+    box-shadow: inset 1px 1px 5px rgba(211, 140, 140, 0.3);
+}
+input#submit{
+    width: 500px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(68, 11, 40, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+
+
+select{
+    text-align: center;
+    width: 220px;
+    height: 50px;
+}
